@@ -1,5 +1,9 @@
 ![travis CI status](https://travis-ci.org/StevenLambion/ui-listView.svg?branch=master)
 
+## SeraphicScribe
+
+Forked in order to update the modules dependencies.
+
 ## ui-listView
 An Angular directive for an efficient, dynamically changing list.  It's able to handle data sets with thousands of
 items while providing a similar interface to ng-repeat.  Unlike other variations, row heights are based
@@ -37,7 +41,7 @@ See live code examples on http://stevenlambion.github.io/ui-listView/
 ## Motivation
 
 Working on many projects that required large or paged lists lead me to create this directive.  I wanted something with a simple interface like ng-repeat,
-yet able to handle big data sets.  There was also a strong need for dynamic rows.  However, above all, I did this because it sounded like a fun problem to solve. 
+yet able to handle big data sets.  There was also a strong need for dynamic rows.  However, above all, I did this because it sounded like a fun problem to solve.
 
 ## API
 
@@ -50,7 +54,7 @@ Configuration options for the list view.  You can provide the options to the dir
 type: `Number`
 default: `48`
 
-This is the initial preferred, or estimated, height of a row. 
+This is the initial preferred, or estimated, height of a row.
 Once a row is displayed, it'll use its content as the height and update the list view as it changes.
 
 #### options.listView
